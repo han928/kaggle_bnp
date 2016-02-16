@@ -1,6 +1,16 @@
-submission 1: 
+submission 1:
     using Logistic regression and Lasso regularization to select subset
     of 10 features and ignore all categorical features
     ([u'v14', u'v34', u'v38', u'v45', u'v50', u'v62', u'v88', u'v109',
-       u'v119', u'v129']) with C = 0.01(inverse of lambda), beat the random forest
-       bench mark
+       u'v119', u'v129']) with C = 0.01(inverse of lambda),
+        beat the random forest bench mark
+submission 2:
+    using RandomForest subset of 10 features and ignore all categorical features
+    ([u'v14', u'v34', u'v38', u'v45', u'v50', u'v62', u'v88', u'v109',
+       u'v119', u'v129']) with C = 0.01(inverse of lambda),
+     got lower score than 1st submission
+ submission 3:
+     using RandomForest subset of all ordinal features and ignore all categorical features
+     ([u'v14', u'v34', u'v38', u'v45', u'v50', u'v62', u'v88', u'v109',
+        u'v119', u'v129']) with C = 0.01(inverse of lambda),
+      got lower score than 1st submission
